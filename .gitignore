@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[codz]
+*$py.class
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Triage output directories
+triage_*/
+
+# Extracted IOC reports
+iocs.json
+timeline.csv
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Memory images (too large for git)
+*.raw
+*.mem
+*.dmp
+*.vmem
+*.lime
